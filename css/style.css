@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;600;700&display=swap');
+
+body {
+	background: #222222;
+}
+
+section {
+	width: 90%;
+	max-width: 1600px;
+	border: 2px solid #ffffff;
+	margin: 60px auto;
+}
+
+#fila {
+	width: 100%;
+	display: flex;
+}
+
+#foto {
+	width: 36%;
+	margin-right: 30px;
+}
+
+#foto img {
+	width: 100%;
+
+}
+
+#info {
+	width: 64%;
+	color: #ffffff;
+}
+
+#info h2 {
+	color: #0a497b;
+	font-size: 22px;
+	font-family: 'Fugaz One', cursive;
+	margin-bottom: 0;
+
+}
+
+#info h1 {
+	color: #ffffff;
+	font-size: 50px;
+	font-family: 'Fugaz One', cursive;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+#detalle {
+	width: 260px;
+	height: 4px;
+	background: #0a497b;	
+}
+
+#info p {
+	font-family: 'Dosis', sans-serif;
+	font-size: 20px;
+}
+
+article {
+	border: 4px solid #0a497b;
+	width: 90%;
+	padding: 25px;
+}
+
+article ul li {
+	color: #ffffff;
+	font-size: 22px;
+	list-style: none;
+	font-family: 'Dosis', sans-serif;
+	width: 48%;
+	display: inline-block;
+	margin-bottom: 12px;
+}
+
+#redes img {
+	margin-top: 20px;
+	width: 40px;
+}
+
+#redes a {
+	margin: 0 10px;
+}
+
+
+#redes a img {
+	transition: .3s;
+}
+
+#redes a img:hover{
+	transform: scale(1.3);
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+
+
+/*------------------------------------------------------Responsive---------------------------------------------------------------------*/
+
+
+
+
+
+
+/*----------------------------------------------------------------Phone----------------------------------------------------------------*/
+@media screen and (min-width: 320px) and (max-width: 600px) {
+
+	#fila {
+		display: block;
+		text-align: center;
+	}
+
+	#foto {
+		width: 65%;
+		margin: 0 auto;
+
+	}
+
+	#info {
+		width: 80%;
+		margin: 0 auto;
+		padding-left: 0;
+	}
+
+	#info h1 {
+		font-size: 24px;
+	}
+
+	#info h2 {
+		font-size: 20px;
+	}
+
+	section {
+		margin: 20px auto;
+	}
+
+	#detalle {
+		margin: 10px auto;
+		width: 85%;
+
+	}
+
+	#info article {
+		width: 100%;
+		padding: 0;
+	}
+
+	article ul li {
+		font-size: 18px;
+	}
+
+	article ul li {
+		width: 100%;
+	}
+
+	article ul {
+		padding: 10px;
+	}
+
+	#redes a {
+	margin: 0 5px;
+
+	}
+
+	#redes a img {
+		margin: 20px 0;
+	}
+
+
+}
+
+
+
+
+/*------------------------Tablet------------------------*/
+@media screen and (min-width: 601px) and (max-width: 768px) {
+
+	#fila {
+		display: block;
+		text-align: center;
+	}
+
+	#foto {
+		width: 65%;
+		margin: 0 auto;
+
+	}
+
+	#info {
+		width: 80%;
+		margin: 0 auto;
+		padding-left: 0;
+	}
+
+	#info h1 {
+		font-size: 25px;
+	}
+
+	section {
+		margin: 20px auto; 
+		position: static;
+	}
+
+	#detalle {
+		margin: 10px auto;
+
+	}
+
+	#info article {
+		width: 100%;
+		padding: 0;
+	}
+
+	article ul li {
+		font-size: 18px;		
+	}
+
+	article ul li {
+		width: 100%;
+	}
+
+	article ul {
+		padding: 10px;
+	}
+
+
+
+}
+
+
+/*----------------------------Ipad----------------------------*/
+
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+
+	#info h1 {
+		font-size: 20px;
+	}
+
+	#info p {
+		font-size: 10px;
+	}
+
+	#info article {
+		padding: 0;
+	}
+
+}
